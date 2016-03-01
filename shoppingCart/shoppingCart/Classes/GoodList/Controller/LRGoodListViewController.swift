@@ -40,7 +40,7 @@ class LRGoodListViewController: UIViewController {
         for i in 0..<10 {
             var dict = [String : AnyObject]()
             dict["iconName"] = "goodicon_\(i)"
-            dict["title"] = "\(i + 1)宝贝"
+            dict["title"] = "\(i + 1)阿哥"
             dict["desc"] = "这是第\(i + 1)个商品"
             dict["newPrice"] = "1000\(i)"
             dict["oldPrice"] = "2000\(i)"
