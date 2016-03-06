@@ -27,7 +27,8 @@ class LRShoppingCartViewController: UIViewController {
     // MARK: - view生命周期
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //去除分割线
+        tableView.tableFooterView = UIView()
         // 准备UI
         prepareUI()
     }
